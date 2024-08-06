@@ -38,7 +38,7 @@ const convert = ()=>{
                         }}
                     >
                         <div className="w-full mb-1">
-                            <InputBox
+                            <InputBox className='bg-gray-300'
                                 label="From"
                                 amount ={amount}
                                 currencyOptions = {option}
@@ -57,7 +57,7 @@ const convert = ()=>{
                             </button>
                         </div>
                         <div className="w-full mt-1 mb-4">
-                            <InputBox
+                            <InputBox className='bg-gray-300'
                                 label="To"
                                 amount ={convertedAmount}
                                 currencyOptions = {option}
